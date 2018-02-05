@@ -1,4 +1,4 @@
-/*package com.gateway.server.config;
+package com.gateway.server.config;
 
 import org.springframework.cloud.netflix.zuul.filters.route.ZuulFallbackProvider;
 import org.springframework.http.HttpHeaders;
@@ -16,8 +16,8 @@ import java.nio.charset.Charset;
 public class FallbackProvider implements ZuulFallbackProvider {
     @Override
     public String getRoute() {
-        // 表明是为哪个微服务提供回退
-        return "service-provider";
+        // 表明是为所有微服务提供回退
+        return "*";
     }
 
     @Override
@@ -62,4 +62,3 @@ public class FallbackProvider implements ZuulFallbackProvider {
         };
     }
 }
-*/
