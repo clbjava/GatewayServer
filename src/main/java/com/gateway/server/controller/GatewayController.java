@@ -1,4 +1,4 @@
-package com.gateway.server.controller;
+/*package com.gateway.server.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -26,9 +26,10 @@ public class GatewayController {
 		return "hello world: "+path;
 	}
 	
-	/*public String post(HttpServletRequest request, HttpServletResponse response,
+	public String post(HttpServletRequest request, HttpServletResponse response,
 			@RequestParam(value = "id", required = false) String id) {
 		LOGGER.info("BaseController.query:{}",id);
 		return "hello world";
-	}*/
+	}
 }
+*/

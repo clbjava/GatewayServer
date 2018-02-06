@@ -17,7 +17,8 @@ public class FallbackProvider implements ZuulFallbackProvider {
     @Override
     public String getRoute() {
         // 表明是为所有微服务提供回退
-        return "*";
+        //return "service-provider";
+    	return null;
     }
 
     @Override
