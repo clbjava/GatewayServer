@@ -27,7 +27,7 @@ public class FallbackProvider implements ZuulFallbackProvider {
             @Override
             public HttpStatus getStatusCode() throws IOException {
                 // fallback时的状态码
-                return HttpStatus.OK;
+                return HttpStatus.BAD_GATEWAY;
             }
 
             @Override
